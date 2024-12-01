@@ -119,7 +119,7 @@ header nav a:hover {
 
 
 section {
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -214,3 +214,67 @@ section {
 footer .social-icons a:hover img {
     filter: brightness(0.8);
 }
+
+.employees {
+    margin-top: 1rem;
+    text-align: center;
+    background-color: var(--accent2-color);
+  }
+  
+  .employee-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .employee img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .employee p {
+    margin-top: 10px;
+  }
+
+.container {
+    display: flex;
+    gap: 20px; 
+    margin: 0 auto;
+  }
+  
+  .contact-info, .question-form {
+    flex: 1;
+    padding: 1rem;
+    background-color: var(--accent2-color);
+  }
+  
+  .contact-info img {
+    width: 100%;
+    height: auto; 
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  form input, form textarea, form button {
+    width: 100%; 
+    padding: 8px;
+  }
+  
+  form button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
